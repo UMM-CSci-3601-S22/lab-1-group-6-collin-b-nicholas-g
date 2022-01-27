@@ -7,6 +7,149 @@ use float to make something locate itself on the right or left
 */
 
 body {
+  background-image: url(assets/images/background.jpg);
+  background-color: transparent;
   padding: 30px;
-  background-color: #ffffff;
+  /*background-color: #a3a3a3;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.background {
+  z-index: 0;
+  height: 100vh;
+  background-position: center;
+  position: relative;
+  background-size: cover;
+  overflow: hidden;
+  margin: 0;
+}
+
+#main-title {
+  color: #4756ad;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+  text-align: center;
+  font-size: 3rem;
+}
+h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 40;
+}
+.section {
+  padding: 15px;
+  border: 5px solid;
+  border-color: #010833;
+  margin: 10px;
+}
+
+#courses {
+background-color: rgba(245, 245, 245, 0.527);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#pslo {
+  background-color: #bfe8ff83;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#faculty {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #4756ad44;
+  display: inline-block;
+  padding: 20px;
+  margin: 5px;
+}
+
+#faculty > ul > li {
+padding: 30px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+#faculty-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 0;
+  justify-content: center;
+  align-content: center;
+  margin: 5px;
+}
+
+img.pic {
+  width: 100%;
+  border: 3px solid #4756ad;
+}
+
+
+#tools {
+  background-color: #bfe8ff83;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  font-size: 1.2rem;
+}
+
+#Class-Tools {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+#items {
+  display: flex;
+  flex-direction: row;
+}
+
+#validation {
+  background-color: rgba(245, 245, 245, 0.527);
+  padding: 15px;
+  border: 5px solid;
+  border-color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#style-selector {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 75px;
+  padding-left: 15px;
+}
+
+#style-selector li {
+  float: left;
+  border: 3px solid black;
+  margin: 3px;
+  background-color: #5468da;
+}
+
+#style-selector ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100vh;
+  background-color: rgb(54, 67, 110);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#style-selector li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding:40px 0px;
+  text-decoration: none;
+}
+
+#style-selector li a:hover {
+  background-color: rgba(245, 245, 245, 0.527);
 }
