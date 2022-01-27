@@ -136,3 +136,38 @@ img.pic {
   background-color: #d5d6d2;
   padding: 25px;
 }
+
+#tools {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+#tools > ul > li {
+  display: inline-block;
+  font-family: sans-serif;
+  padding: 30px;
+}
+
+.Cloud {
+  font-variant: small-caps;
+  color: goldenrod;
+}
+
+.Local {
+  font-variant: small-caps;
+  color: #7a0019;
+}
+
+.version-control {
+  font-style:italic;
+  font-weight:900;
+}
+
+.ide {
+  font-style:oblique;
+  font-weight: 100;
+}
+
