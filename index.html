@@ -40,9 +40,15 @@
     checkHash();
     window.addEventListener('hashchange', checkHash);
   </script>
+
+<source src="assets/images/background.jpg">
+
 </head>
 
 <body>
+
+<div id="content">
+
   <h1 id="main-title">UMM Computer Science</h1>
   <div class="pslo-courses-container">
     <div class="section" id="pslo">
@@ -133,7 +139,10 @@
   </div>
 
   <div class="section" id="tools">
-    <h2>Class Tools</h2>
+    <div id="Class-Tools">
+      <h2>Class Tools</h2>
+    </div>
+    <div id="items">
       <ul class="Cloud"> Cloud
         <ul>
         <li class="version-control" id="GitHub">
@@ -170,6 +179,7 @@
         </li>
       </ul>
       </ul>
+    </div>
   </div>
 
   <div class="card" id="validation">
@@ -191,6 +201,8 @@
       </p>
     </div>
   </div>
+
+</div>
 
   <!-- html and javascript code for switching style on the fly comes from:
   https://stackoverflow.com/questions/19844545/replacing-css-file-on-the-fly-and-apply-the-new-style-to-the-page -->
